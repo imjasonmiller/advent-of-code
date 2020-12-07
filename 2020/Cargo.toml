@@ -1,0 +1,13 @@
+[package]
+name = "advent-of-code"
+version = "0.1.0"
+authors = ["Jason Miller <contact@jasonmiller.nl>"]
+edition = "2018"
+
+[dependencies]
+clap = "3.0.0-beta.2"
+regex = "1.4.2"
+lazy_static = "1.4.0"
+anyhow = "1.0.34"
+thiserror = "1.0.22"
+itertools = "0.9.0"
