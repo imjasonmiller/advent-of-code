@@ -1,5 +1,6 @@
 #![feature(bool_to_option)]
 #![feature(iterator_fold_self)]
+#![feature(str_split_once)]
 use clap::{crate_authors, Clap};
 
 use std::{
@@ -19,6 +20,8 @@ mod day3;
 mod day4;
 mod day5;
 mod day6;
+mod day7;
+mod day8;
 
 macro_rules! solution_days {
     (
@@ -163,6 +166,9 @@ fn main() -> anyhow::Result<()> {
         day5, part2;
         day6, part1;
         day6, part2;
+        day7, part1;
+        day7, part2;
+        day8, part1;
     }
 
     Ok(())
