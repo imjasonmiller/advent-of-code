@@ -12,10 +12,10 @@ use anyhow::Context;
 use thiserror::Error;
 
 mod day1;
+mod day2;
 // mod day10;
 // mod day11;
 // mod day18;
-// mod day2;
 // mod day3;
 // mod day4;
 // mod day5;
@@ -157,8 +157,8 @@ fn main() -> anyhow::Result<()> {
 
         day1, part1;
         day1, part2;
-        // day2, part1;
-        // day2, part2;
+        day2, part1;
+        day2, part2;
         // day3, part1;
         // day3, part2;
         // day4, part1;
